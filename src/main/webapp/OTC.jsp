@@ -58,7 +58,7 @@ background-color:#008CBA;
 </div>
 
 <div>
-<button type="button" class="button button1" onclick="alert('Hello')">Black</button>
+<button type="button" class="button button1" onclick="alert('Hello')">Red</button>
 </div>
 <button class="button button2" onclick="document.location='http://localhost:8080/OTCHandBook/hello.html'">Blue</button>
 </body>
