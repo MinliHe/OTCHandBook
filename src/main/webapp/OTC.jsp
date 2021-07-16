@@ -20,6 +20,7 @@
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .otcbutton {
@@ -112,7 +113,7 @@
 	<div class="center1">
 		<button 
 			class="button button1" 
-			onclick="document.location='http://localhost:8080/OTCHandBook/hello.html'">
+			onclick="document.location='http://localhost:8080/OTCHandBook/Symptom.jsp'">
 			Search by Symptom
 		</button>
 	</div>
@@ -120,7 +121,7 @@
 	<div class="center2">
 		<button 
 			class="button button2" 
-			onclick="document.location='http://localhost:8080/OTCHandBook/hello.html'">
+			onclick="document.location='http://localhost:8080/OTCHandBook/ProName.jsp'">
 			Search by Product Name
 		</button>
 	</div>
@@ -128,7 +129,7 @@
 	<div class="center3">
 		<button 
 			class="button button3" 
-			onclick="document.location='http://localhost:8080/OTCHandBook/hello.html'">
+			onclick="document.location='http://localhost:8080/OTCHandBook/Category.jsp'">
 			Search by Category
 		</button>
 	</div>
