@@ -50,7 +50,8 @@
   border: 2px solid #6C8EBF;
   border-radius: 10px; 
   width: 200px;
-  height:50px;"
+  height:50px;
+  font-size:20px;"
   onclick="document.location='http://localhost:8080/OTCHandBook/Symptom.jsp'"
   >
   Back
