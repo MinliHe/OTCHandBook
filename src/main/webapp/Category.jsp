@@ -66,6 +66,7 @@ body {
   justify-content: center;
   align-items:center;
   display:flex;
+  margin-left:10px;
   
 }
 
@@ -86,6 +87,7 @@ body {
 </style>
 </head>
 <body style="background-color:#000033;">
+<%@ include file="home.html" %>
 	<div class="otccenter">
 		<button
 		 type="button"

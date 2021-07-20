@@ -127,6 +127,7 @@ form.search button:hover {
 </style>
 </head>
 <body style="background-color:#000033;">
+<%@ include file="home.html" %>
 	<div class="otccenter">
 		<button
 		 type="button"
@@ -146,7 +147,7 @@ form.search button:hover {
 	<div class="center1">
 		<button 
 			class="symptom symptom1" 
-			onclick="document.location='http://localhost:8080/OTCHandBook/hello.html'">
+			onclick="document.location='http://localhost:8080/OTCHandBook/ConnectDB.jsp'">
 			Symptom 1
 		</button>
 		<button 

@@ -127,6 +127,7 @@ form.search button:hover {
 </style>
 </head>
 <body style="background-color:#000033;">
+<%@ include file="home.html" %>
 	<div class="otccenter">
 		<button
 		 type="button"
