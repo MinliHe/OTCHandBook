@@ -5,38 +5,13 @@
 <head>
 <meta charset="ISO-8859-1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<title>OTC HAND Book</title>
+<title>Category</title>
 </head>
 
 <head>
 <style>
 body {
  font-family: Arial;
-}
-.button {
-  border: none;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  border-radius: 10px;
-}
-
-.otcbutton {
-  background-color: #FFFF29;
-  color: black;
-  border: 2px solid black;
-  padding: 10px 15px;
-  font-size:20px
-}
-
-.otccenter {
-  display:flex;
-  justify-content: center;
-  align-items:center;
-  margin-top:200px;
-  margin-bottom: 100px; 
 }
 
 .symptom {
@@ -88,25 +63,23 @@ body {
 </head>
 <body style="background-color:#000033;">
 <%@ include file="home.html" %>
-	<div class="otccenter">
-		<button
-		 type="button"
-		 class="button otcbutton" 
-		 onclick="alert('Hello')">
-		 OTC HandBook
-		 </button>
-	</div>
+<div style="display:flex;
+	  justify-content: center;
+	  align-items:center;
+	  margin-top:100px; ">
+	<h1 style="color:yellow; font-size:50px">OTC HandBook </h1>
+</div>
 	
 	
 	<div class="center1">
 		<button 
 			class="symptom symptom1" 
-			onclick="document.location='http://localhost:8080/OTCHandBook/hello.html'">
+			onclick="document.location='http://localhost:8080/OTCHandBook/CategoryA.jsp'">
 			Allergy and Sinus
 		</button>
 		<button 
 			class="symptom symptom2" 
-			onclick="document.location='http://localhost:8080/OTCHandBook/hello.html'">
+			onclick="document.location='http://localhost:8080/OTCHandBook/CategoryD.jsp'">
 			Digestive Health
 		</button>
 	</div>
@@ -114,12 +87,12 @@ body {
 	<div class="center2">
 		<button 
 			class="symptom symptom1" 
-			onclick="document.location='http://localhost:8080/OTCHandBook/hello.html'">
+			onclick="document.location='http://localhost:8080/OTCHandBook/CategoryC.jsp'">
 			Cough and Cold
 		</button>
 		<button 
 			class="symptom symptom2" 
-			onclick="document.location='http://localhost:8080/OTCHandBook/hello.html'">
+			onclick="document.location='http://localhost:8080/OTCHandBook/CategoryE.jsp'">
 			Ear Care
 		</button>
 	</div>
@@ -127,12 +100,12 @@ body {
 		<div class="center2">
 		<button 
 			class="symptom symptom1" 
-			onclick="document.location='http://localhost:8080/OTCHandBook/hello.html'">
+			onclick="document.location='http://localhost:8080/OTCHandBook/CategoryI.jsp'">
 			Eye Care
 		</button>
 		<button 
 			class="symptom symptom2" 
-			onclick="document.location='http://localhost:8080/OTCHandBook/hello.html'">
+			onclick="document.location='http://localhost:8080/OTCHandBook/CategoryF.jsp'">
 			Foot Care
 		</button>
 	</div>
